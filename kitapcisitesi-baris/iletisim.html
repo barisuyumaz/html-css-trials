@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Barış Kitap</title>
+		<link rel="stylesheet" href="cssprojeodevim.css?"/>
+		<script>
+			function mesaj(){
+				if(document.getElementById("kisialani").value.length && document.getElementById("yazialani").value.length > 0){
+				alert("Mesajınız iletilmiştir...");}
+		}
+		</script>
+	</head>
+	<body>
+		<div id="genel">
+			<div class="ust">
+				<img align="left" height="190px" src="bariskitaplogo.png"/>
+				<b align="right" class="siteisim">www.bariskitap.com</b>
+				<form action="" method="GET">
+					<b class="kitaparama">Aradığınız kitabı giriniz :</b>
+					<input type="text" class="aramakismi">
+					<input type="submit" name="ara" value="Ara" class="aramabutonu">
+				</form>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="anasayfa.html">Anasayfa</a></li>
+					<li><a href="kategoriler.html">Kategoriler</a>
+						<ul>
+							<a href="edebiyat.html">Edebiyat</a>
+							<a href="felsefe.html">Felsefe</a>
+							<a href="mizah.html">Mizah</a>
+							<a href="fantastik.html">Fantastik</a>
+							<a href="korku.html">Korku</a>
+						</ul>
+					</li>
+					<li><a href="sepeteekle.html">Sepetim</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+			</div>
+			<div class="iletisimarkaplan">
+				<div class="iletisimbaslik" align="center">İLETİŞİM</div>
+				<div class="adresbilgileri">Adres/Numara</div>
+				<hr color="gray">
+				<pre>	<b>BARIŞ Uyumaz / 183502053</b>	
+	<b>İSTANBUL / SARIYER</b>
+	<b>baris.uyumaz@ogr.altinbas.edu.tr</b>
+				</pre>
+				<hr color="gray">
+				<div class="adresbilgileri">Destek ve Önerileriniz</div>
+				<hr color="gray">
+			<form action="" method="POST">
+				<table width="35%" height="40%">
+					<tr>
+						<td align="right">Adınız: </td>
+						<td><input id="kisialani" type="text" name="kisi" required></td>
+					</tr>
+					<tr>
+						<td align="right">E-mail: </td>
+						<td><input id="yazialani" type="text" name="maili" required></td>
+					</tr>
+					<tr>
+						<td align="right"></td>
+						<td>
+							<textarea rows="5" cols="40" name="adres" style="max-width:350px;max-height:300px;"></textarea>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" name="gonder" value="Gönder" onclick="mesaj()">
+						</td>				
+					</tr>
+				</table>
+			</form>
+			</div>
+			<div class="alt">
+				<a href="#"><img src="facelogo.png" class="logo"></a>
+				<a href="#"><img src="twitterlogo.png" class="logo"></a>
+				<a href="#"><img src="instalogo.png" class="logo"></a>
+				<a href="#"><img src="appstorepng.png" class="logoappstore"></a>
+				<a href="#"><img src="gplaylogo.png" class="logogplay"></a>
+				<pre> 	© Copyright 1999-2020 Barış Kitap 
+	Pazarlama A.Ş. tüm hakları saklıdır.
+			   İstanbul/Sarıyer
+		Barış Uyumaz/183502053
+	baris.uyumaz@ogr.altinbas.edu.tr
+				</pre>
+			</div>
+		</div>
+	
+	</body>
+</html>

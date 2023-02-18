@@ -1,0 +1,490 @@
+body{
+	background-color: rgb(200,255,255);
+}
+#genel{
+	width: 1100px;
+	height: auto;
+	margin: auto;
+}
+.ust{
+	width: 1100px;
+	height: 190px;
+	background:rgb(100,255,255);
+	border: 1px solid black;
+}
+.siteisim{
+	font: bold 100px Bernard MT Condensed;
+	color:rgb(0,93,255);	
+}
+.kitaparama{
+	font: bold 30px Bahnschrift SemiBold;
+	color:rgb(0,93,255);	
+	float:bottom;
+}
+.aramakismi{
+	width: 500px;
+	height: 35px;	
+}
+.aramabutonu{
+	height: 40px;
+	color:rgb(0,93,255);
+	background-color:rgb(100,255,255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+	width: 1100px;
+	height: 80px;
+	background:rgb(100,255,255);
+	margin-bottom:10px;
+	margin-top:10px;
+	border: 1px solid black;
+}
+.menu li{
+	list-style:none;
+	float:left;
+	margin-right:68px;
+	position:relative;
+
+}
+.menu a{
+	text-decoration:none;
+	font: bold 20px verdana;
+	background:rgb(77, 184, 255);
+	color:rgb(0,93,255);
+	display:block;
+	padding:18px;
+}
+.menu ul li{
+	position:relative;
+}
+.menu ul > li > ul{
+	width:161px;
+	position:absolute;
+}
+.menu ul li ul{
+	display:none;
+	padding:0px;
+}
+.menu ul li:hover ul{
+	display:block;
+	
+}
+.menu a:hover{
+	background-color:#009999;
+	transition:.5a ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icerik{
+	width: 1100px;
+	height: auto;
+}
+.iceriksol{
+	margin-right:10px;
+	width: 740px;
+	min-height: 800px;
+	float: left;
+}
+.iceriksolbaslik{
+	border: 1px solid black;
+	width: 740px;
+	height: 30px;
+	background:rgb(117, 163, 163);
+	font: bold 22px verdana;
+	color:black;
+}
+.icerikkampanya{
+	border: 1px solid black;	
+	width: 740px;
+	height: 200px;
+}
+.kampanyaplak{
+	width: 740px;
+	height: 200px;
+}
+.yenicikankitaplar{
+	background:rgb(100,255,255);
+	width: 740px;
+	min-height: 820px;
+	border: 1px solid black;	
+}
+.resp{
+	width: 228px;
+	height: 228px;
+	float: left;
+	margin: 8px;
+}
+.yenicikanresim{
+	border: 1px solid black;
+	padding:8px;
+	width: 120px;
+	height: 155px;
+}
+.yenicikankitapisim{
+	min-width: 130px;
+	height: 18px;	
+	font: 18px bold black;
+}
+.yenicikankitapyazar{
+	width: 100px;
+	height: 11px;	
+	background: red;
+	font: 10px solid black;
+	background: white;
+}
+.yenicikankitapyayinci{
+	width: 100px;
+	height: 11px;	
+	font: 10px solid black;
+	background: white;
+}
+.yenicikankitapfiyat{
+	width: 110px;
+	height: 15px;	
+	background: #669999;
+	font: 14px bold black;	
+}
+.butonsag{
+	width: 40px;
+	height: 40px;
+	margin-right: 210px;
+	margin-top: 20px;
+}
+.butonsol{
+	width: 40px;
+	height: 40px;
+	margin-left: 210px;
+	margin-top: 20px;
+}
+.iceriksag{
+	width: 350px;
+	min-height: 400px;
+	background: green;
+	float:right;
+}
+.iceriksagbaslik{
+	border: 1px solid black;
+	width: 350px;
+	height: 30px;
+	background: rgb(117, 163, 163);
+	font: bold 22px verdana;
+	color:black;
+
+}
+.icerikencoksatanplak{
+	border: 1px solid black;
+	width: 350px;
+	height: 350px;
+	background: rgb(100,255,255);
+	font: bold 22px verdana;
+
+}
+.adresbilgileri{
+	font: bold 22px Elephant;
+	background:rgb(150,200,255);
+}
+.resim{
+	margin-top:5px;
+	border: 4px solid rgb(51, 77, 77);
+	padding:10px;
+	width: 220px;
+	height: 220px;
+}
+.kitapisim{
+	width: 350px;
+	height: 27px;	
+	background: rgb(117, 163, 163);
+	font: 24px bold black;
+}
+.kitapyazar{
+	width: 350px;
+	height: 14px;	
+	background: red;
+	font: 12px solid black;
+	background: rgb(133, 173, 173);
+}
+.kitapyayinci{
+	width: 350px;
+	height: 12px;	
+	font: 10px solid black;
+	background:rgb(117, 163, 163);
+}
+.kitapfiyat{
+	width: 350px;
+	height: 20px;	
+	background: rgb(133, 173, 173);
+	font: 17px bold black;	
+}
+.alt{
+	border: 1px solid black;
+	width: 1100px;
+	height: 100px;
+	background: yellow;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.logo{
+	margin-top:10px;
+	margin-right:35px;
+	margin-left:35px;
+	width: 80px;
+	height: 80px;
+	float:left;
+}
+.logoappstore{
+	margin-top:13px;
+	max-width: 160px;
+	max-height: 160px;	
+	float:left;
+}
+.logogplay{
+	margin-top:29px;
+	margin-left:25px;
+	max-width: 140px;
+	max-height: 140px;	
+	float:left;
+}
+.kategorisol{
+	min-height:650px;
+	width:275px;
+	float:left;
+	background:rgb(100,255,255);
+	border: 1px solid black;
+}
+.kategorisolbaslik{
+	height:50px;
+	width:275px;
+	font: bold 33px verdana;
+	background:rgb(117, 163, 163);
+	border-bottom: 1px solid black;
+}
+
+.kategorimenu ul{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.kategorimenu a{
+	text-decoration:none;
+	font: bold 20px verdana;
+	background:rgb(77, 184, 255);
+	color:rgb(0,93,255);
+	display:block;
+	padding:18px;
+	width:239px;
+}
+.kategorimenu ul > li{
+	list-style:none;
+	float:left;
+	margin-right:0px;
+}
+
+.kategorimenu a:hover{
+	background-color:#009999;
+	transition:.5a ease-in-out;
+}
+.kategorisag{
+	width:811px;
+	min-height:652px;
+	border: 1px solid black;
+	float:right;
+	background:rgb(100,255,255);
+}
+.oksolabakar{
+	height:300px;
+	width:300px;
+	margin-left:200px;
+	margin-top:60px;
+}
+.bilgikitapsol{
+	width: 350px;
+	min-height: 20px;
+	background: rgb(117, 163, 163);
+	float:left;
+}
+.bilgikitapplak{
+	border: 1px solid black;
+	width: 350px;
+	height: 400px;
+	background: rgb(100,255,255);
+	font: bold 22px verdana;
+
+}
+.marketcar{
+	height:60px;
+	width:230px;
+	margin:0px;
+	position:relative;
+}
+.bilgikitapsagplak{
+	border: 1px solid black;
+	width: 735px;
+	min-height: 432px;
+	background: rgb(100,255,255);
+	float:right;
+}
+.bilgikitapsagbaslik{
+	height:32px;
+	background:rgb(117, 163, 163);
+	border-bottom: 1px solid black;
+	font: bold 22px verdana;
+}
+.kitaphakkindabilgi{
+	padding:20px;
+}
+.sepeteeklearkaplan{
+	border: 1px solid black;
+	width: 1100px;
+	min-height: 432px;
+	background:rgb(100,255,255);
+}
+.sepetbaslikarkaplan{
+	border-bottom: 1px solid black;
+	width: 1100px;
+	height:40px;
+	background:rgb(117, 163, 163);
+	float:right;
+}
+.sepeturun{
+	height:40px;
+	background:rgb(117, 163, 163);
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font: bold 22px verdana;
+	width:300px;
+	display: table-cell;
+}
+.sepetadet{
+	height:40px;
+	background:rgb(117, 163, 163);
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	font: bold 22px verdana;
+	width:500px;
+	margin-left:400px;
+	display: table-cell;
+}
+.sepetfiyat{
+	height:40px;
+	background:rgb(117, 163, 163);
+	font: bold 22px verdana;
+	width:225px;
+	margin-left:800px;
+	display: table-cell;
+	border-bottom: 1px solid black;
+}
+
+.sepettikkutu{
+	margin-left:15px;
+	margin-top:35px;
+	background:rgb(117, 163, 163);
+	width:0px;
+	float:left;
+}
+.sepetkitapresim{
+	width:65px;
+	height:65px;
+	margin-left:35px;
+	margin-top:10px;
+}
+.sepetkitapisim{
+	font: bold 20px verdana;
+	float:right;
+	margin-top:25px;
+	margin-right:20px;
+}
+.arti{
+	font: bold 20px verdana;
+	text-decoration:none;
+	color:rgb(0,93,255);
+	margin-left:100px;
+}
+.eksi{
+	font: bold 20px verdana;
+	text-decoration:none;
+	color:rgb(0,93,255);
+	margin-left:20px;
+}
+.sayi{
+	font: bold 20px verdana;
+	color:black;
+	margin-left:20px;	
+}
+.sepettekifiyat{
+	font: bold 18px verdana;
+	color:rgb(0,93,255);
+	margin-left:90px;
+}
+.satinalbuton{
+	font: bold 23px verdana;
+	color:purple;
+	margin-left:100px;
+}
+.hakkimizdaarkaplan{
+	width:1100px;
+	min-height:500px;
+	background:rgb(100,255,255);
+	border: 1px solid black;
+}
+.hakkimizdabaslik{
+	font: bold 30px Elephant;
+	margin-left:150px;
+	margin-top:20px;
+	
+}
+.iletisimarkaplan{
+	max-width:1100px;
+	min-height:500px;
+	border: 1px solid black;
+	background:rgb(100,255,255);
+}
+.kitapsayisi{
+	margin-left:215px;
+}
+.iletisimbaslik{
+	border-bottom: 1px solid black;
+	width: 1100px;
+	height: 40px;
+	background: rgb(117, 163, 163);
+	font: bold 22px verdana;
+	color:black;
+}
+.adresbilgileri{	
+	height:30px;
+	width:1100px;
+}

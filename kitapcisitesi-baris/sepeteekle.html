@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Barış Kitap</title>
+		<link rel="stylesheet" href="cssprojeodevim.css?"/>
+			<script>
+			function mesaj(){
+				alert("Alışveriş talebiniz gönderilmiştir!");
+		}
+		</script>
+	</head>
+	<body>
+		<div id="genel">
+			<div class="ust">
+				<img align="left" height="190px" src="bariskitaplogo.png"/>
+				<b align="right" class="siteisim">www.bariskitap.com</b>
+				<form action="" method="GET">
+					<b class="kitaparama">Aradığınız kitabı giriniz :</b>
+					<input type="text" class="aramakismi">
+					<input type="submit" name="ara" value="Ara" class="aramabutonu">
+				</form>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="anasayfa.html">Anasayfa</a></li>
+					<li><a href="kategoriler.html">Kategoriler</a>
+						<ul>
+							<a href="edebiyat.html">Edebiyat</a>
+							<a href="felsefe.html">Felsefe</a>
+							<a href="mizah.html">Mizah</a>
+							<a href="fantastik.html">Fantastik</a>
+							<a href="korku.html">Korku</a>
+						</ul>
+					</li>
+					<li><a href="sepeteekle.html">Sepetim</a></li>
+					<li><a href="hakkimizda.html">Hakkımızda</a></li>
+					<li><a href="iletisim.html">İletişim</a></li>
+				</ul>
+			</div>
+			<div class="sepeteeklearkaplan">
+				<div class="sepetbaslikarkaplan">
+					<div class="sepeturun" align="center">Ürün</div>
+					<div class="sepetadet" align="center">Adet</div>
+					<div class="sepetfiyat" align="right">Fiyat</div>
+				</div>
+				<table border="1px" width="1100px" height="100px">
+					<tr>
+						<td width="299px">
+							<div class="sepettikkutu"><input type="checkbox" name="alcanmi"></div>
+							<img src="sucveceza.jpg" class="sepetkitapresim">
+							<div class="sepetkitapisim"><a href="sucveceza.html">Suç ve Ceza</a></div>
+						</td>
+						<td  width="504px">
+							<input class="kitapsayisi" type="number" min="1" max="10" name="kitapsayi"  value="1"required>
+
+						</td>
+						<td width="299px">
+							<span class="sepettekifiyat"><del>29.99 TL</del> 19.99 TL</div></span>
+						</td>
+					</tr>
+				</table>	
+				<table border="1px" width="1100px" height="100px">
+					<tr>
+						<td width="299px">
+							<div class="sepettikkutu"><input type="checkbox" name="alcanmi"></div>
+							<img src="1984.jpg" class="sepetkitapresim">
+							<div class="sepetkitapisim"><a href="1984.html">1984</a></div>
+						</td>
+						<td width="504px">
+								<input class="kitapsayisi" type="number" min="1" max="10" name="kitapsayi"  value="1"required>
+						</td>
+						<td width="299px">
+							<span class="sepettekifiyat"><del>29.99 TL</del> 19.99 TL</span>
+						</td>
+					</tr>
+				</table>
+				<table width="1100px" height="100px">
+					<tr>
+						<td width="803px"></td>
+						<td width="299px">
+							<span class="sepettekifiyat">TOPLAM= 39.98 TL</span>
+							<span class="satinalbuton"><a href="#" onclick="mesaj()">SATIN AL</a></span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div class="alt">
+				<a href="#"><img src="facelogo.png" class="logo"></a>
+				<a href="#"><img src="twitterlogo.png" class="logo"></a>
+				<a href="#"><img src="instalogo.png" class="logo"></a>
+				<a href="#"><img src="appstorepng.png" class="logoappstore"></a>
+				<a href="#"><img src="gplaylogo.png" class="logogplay"></a>
+				<pre> 	© Copyright 1999-2020 Barış Kitap 
+	Pazarlama A.Ş. tüm hakları saklıdır.
+			   İstanbul/Sarıyer
+		Barış Uyumaz/183502053			   
+				</pre>
+			</div>
+		</div>
+	
+	</body>
+</html>
